@@ -4,12 +4,12 @@ import time
 
 root = Tk()
 root.geometry("1600x700+0+0")
-root.title("Restaurant Management System")
+root.title("Restaurant Management System by deepak")
 
-Tops = Frame(root,bg="white",width = 1600,height=50,relief=SUNKEN)
+Tops = Frame(root,bg="yellow",width = 1600,height=50,relief=SUNKEN)
 Tops.pack(side=TOP)
 
-f1 = Frame(root,width = 900,height=700,relief=SUNKEN)
+f1 = Frame(root,width = 900,height=700,relief=SUNKEN)             #name of the rstaurent an title is changed
 f1.pack(side=LEFT)
 
 f2 = Frame(root ,width = 400,height=700,relief=SUNKEN)
@@ -98,7 +98,7 @@ def reset():
     Cheese_burger.set("")
 
 
-btn7=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="7",bg="powder blue", command=lambda: btnclick(7) )
+btn7=Button(f2,padx=16,pady=16,bd=4, fg="red", font=('ariel', 22 ,'bold'),text="7",bg="powder blue", command=lambda: btnclick(7) )
 btn7.grid(row=2,column=0)
 
 btn8=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="8",bg="powder blue", command=lambda: btnclick(8) )
@@ -232,13 +232,13 @@ txtTotal.grid(row=5,column=3)
 lblTotal = Label(f1,text="---------------------",fg="white")
 lblTotal.grid(row=6,columnspan=3)
 
-btnTotal=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="TOTAL", bg="powder blue",command=Ref)
+btnTotal=Button(f1,padx=16,pady=8, bd=10 ,fg="pink",font=('ariel' ,18,'bold'),width=10, text="TOTAL", bg="powder blue",command=Ref)
 btnTotal.grid(row=7, column=1)
 
-btnreset=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="RESET", bg="powder blue",command=reset)
+btnreset=Button(f1,padx=16,pady=8, bd=10 ,fg="pink",font=('ariel' ,18,'bold'),width=10, text="RESET", bg="powder blue",command=reset)                 #color of the button and font size is changed
 btnreset.grid(row=7, column=2)
 
-btnexit=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),width=10, text="EXIT", bg="powder blue",command=qexit)
+btnexit=Button(f1,padx=16,pady=8, bd=10 ,fg="pink",font=('ariel' ,18,'bold'),width=10, text="EXIT", bg="powder blue",command=qexit)
 btnexit.grid(row=7, column=3)
 
 def price():
