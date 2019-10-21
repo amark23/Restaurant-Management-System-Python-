@@ -4,9 +4,9 @@ import time
 
 root = Tk()
 root.geometry("1600x700+0+0")
-root.title("Restaurant Management System")
+root.title("Restaurant Management System by abhishek")                          #changing the title and name of the restaurent
 
-Tops = Frame(root,bg="white",width = 1600,height=50,relief=SUNKEN)
+Tops = Frame(root,bg="red",width = 1600,height=50,relief=SUNKEN)
 Tops.pack(side=TOP)
 
 f1 = Frame(root,width = 900,height=700,relief=SUNKEN)
@@ -17,7 +17,7 @@ f2.pack(side=RIGHT)
 #------------------TIME--------------
 localtime=time.asctime(time.localtime(time.time()))
 #-----------------INFO TOP------------
-lblinfo = Label(Tops, font=( 'aria' ,30, 'bold' ),text="Restaurant Management System",fg="steel blue",bd=10,anchor='w')
+lblinfo = Label(Tops, font=( 'aria' ,30, 'bold' ),text="Restaurant Management System by abishek",fg="steel blue",bd=10,anchor='w')
 lblinfo.grid(row=0,column=0)
 lblinfo = Label(Tops, font=( 'aria' ,20, ),text=localtime,fg="steel blue",anchor=W)
 lblinfo.grid(row=1,column=0)
@@ -98,31 +98,31 @@ def reset():
     Cheese_burger.set("")
 
 
-btn7=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="7",bg="powder blue", command=lambda: btnclick(7) )
+btn7=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 20 ,'bold'),text="7",bg="powder blue", command=lambda: btnclick(7) )
 btn7.grid(row=2,column=0)
 
-btn8=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="8",bg="powder blue", command=lambda: btnclick(8) )
+btn8=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 20 ,'bold'),text="8",bg="powder blue", command=lambda: btnclick(8) )
 btn8.grid(row=2,column=1)
 
-btn9=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="9",bg="powder blue", command=lambda: btnclick(9) )
+btn9=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="9",bg="powder blue", command=lambda: btnclick(9) )               #changing the color and font size of button
 btn9.grid(row=2,column=2)
 
-Addition=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="+",bg="powder blue", command=lambda: btnclick("+") )
+Addition=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="+",bg="powder blue", command=lambda: btnclick("+") )
 Addition.grid(row=2,column=3)
 #---------------------------------------------------------------------------------------------
-btn4=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="4",bg="powder blue", command=lambda: btnclick(4) )
+btn4=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="4",bg="powder blue", command=lambda: btnclick(4) )
 btn4.grid(row=3,column=0)
 
-btn5=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="5",bg="powder blue", command=lambda: btnclick(5) )
+btn5=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="5",bg="powder blue", command=lambda: btnclick(5) )
 btn5.grid(row=3,column=1)
 
-btn6=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="6",bg="powder blue", command=lambda: btnclick(6) )
+btn6=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="6",bg="powder blue", command=lambda: btnclick(6) )
 btn6.grid(row=3,column=2)
 
-Substraction=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="-",bg="powder blue", command=lambda: btnclick("-") )
+Substraction=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="-",bg="powder blue", command=lambda: btnclick("-") )
 Substraction.grid(row=3,column=3)
 #-----------------------------------------------------------------------------------------------
-btn1=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="1",bg="powder blue", command=lambda: btnclick(1) )
+btn1=Button(f2,padx=16,pady=16,bd=4, fg="yellow", font=('ariel', 22 ,'bold'),text="1",bg="powder blue", command=lambda: btnclick(1) )
 btn1.grid(row=4,column=0)
 
 btn2=Button(f2,padx=16,pady=16,bd=4, fg="black", font=('ariel', 20 ,'bold'),text="2",bg="powder blue", command=lambda: btnclick(2) )
