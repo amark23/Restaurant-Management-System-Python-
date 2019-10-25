@@ -4,15 +4,15 @@ import time
 
 root = Tk()
 root.geometry("1600x700+0+0")
-root.title("Restaurant Management System")
+root.title("Restaurant Management System by vikash gupta")   #changing in the title 
 
-Tops = Frame(root,bg="white",width = 1600,height=50,relief=SUNKEN)
+Tops = Frame(root,bg="blue",width = 1600,height=50,relief=SUNKEN) #changing the background color of tops
 Tops.pack(side=TOP)
 
-f1 = Frame(root,width = 900,height=700,relief=SUNKEN)
+f1 = Frame(root,width = 1000,height=800,relief=SUNKEN)  #changing the width height of f1 and f2 frame
 f1.pack(side=LEFT)
 
-f2 = Frame(root ,width = 400,height=700,relief=SUNKEN)
+f2 = Frame(root ,width = 500,height=800,relief=SUNKEN)
 f2.pack(side=RIGHT)
 #------------------TIME--------------
 localtime=time.asctime(time.localtime(time.time()))
