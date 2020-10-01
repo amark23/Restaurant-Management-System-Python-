@@ -4,6 +4,7 @@ import time
 
 root = Tk()
 root.geometry("1600x700+0+0")
+root.resizable(0,0)
 root.title("Restaurant Management System")
 
 Tops = Frame(root,bg="white",width = 1600,height=50,relief=SUNKEN)
