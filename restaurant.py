@@ -49,7 +49,7 @@ def eqals():
 def Ref():
     x=random.randint(12980, 50876)
     randomRef = str(x)
-    rand.set(randomRef)
+    # rand.set(randomRef)
 
     cof =float(Fries.get())
     colfries= float(Largefries.get())
